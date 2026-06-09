@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Results Summary Component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <!-- Left side: Result -->
+    <section class="result">
+      <h2>Your Result</h2>
+      <div class="score-circle">
+        <h1 id="score">--</h1>
+        <p>of 100</p>
+      </div>
+      <h3 id="grade">Loading...</h3>
+      <p id="description">Calculating your results...</p>
+    </section>
+
+    <!-- Right side: Summary -->
+    <section class="summary">
+      <h2>Summary</h2>
+      <div id="summary-list"></div>
+      <button>Continue</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
